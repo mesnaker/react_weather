@@ -1,0 +1,25 @@
+@import url(fonts.scss);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Montserrat';
+    user-select: none;
+    font-weight: 400;
+
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+@import url('../../components/Header/Header.scss');
+@import url('../../components/Main/Today/Today.scss');
+@import url('../../components/Main/Week/Week.scss');
